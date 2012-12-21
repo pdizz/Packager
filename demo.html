@@ -1,0 +1,44 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    </head>
+    <body>
+        <div class='blocks'>
+            <label for='blocks'>Blocks: W x H [x N] - </br>
+                <pre>
+    For the purposes of this demo sizes must be entered from largest to smallest.
+    This will be taken care of using a sort algorithm or through the UI eventually.</br>
+    Maximum sheet size is 100x80</br>
+    8x10       = '100x80'
+    5x7        = '50x70'
+    3x5        = '50x35'
+    wallet     = '25x35'
+    miniwallet = '25x17.5'
+                </pre>
+            </label>
+            <textarea id='blocks' rows=12>
+100x80
+50x70x2
+50x35x4
+25x35x8
+25x17.5x8
+			</textarea>
+        </div>
+        <div id="nofit">
+            
+        </div>
+        <div id="preview">
+        </div>
+        
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+        <script src="js/packagizer.js" type="text/javascript"></script>
+        <script src="js/demo.js" type="text/javascript"></script>
+    </body>
+</html>

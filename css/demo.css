@@ -1,0 +1,26 @@
+root { 
+    display: block;
+}
+
+body {
+    width : 90%;
+    margin : auto;
+}
+
+#preview {
+    width : 100%;
+    height : 400px;
+    margin : auto;
+    overflow : auto;
+    border : 1px solid black;
+    float : left;
+}
+#preview canvas {
+    border : 1px solid black;
+    margin : 1px;
+}
+
+#nofit {
+    color : red;
+    float : left;
+}
