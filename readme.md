@@ -1,11 +1,17 @@
-Binary tree bin packing algorithm adapted from http://codeincomplete.com/posts/2011/5/7/bin_packing/
+Binary tree bin packing algorithm for 'packing' images to variable-sized sheets of paper for printing to
+roll-paper.
 
-- Adapted growing bin algorithm to only grow up to preset size for packing images to variable sized
+- Adapted growing bin algorithm to only grow up to preset size for packing images to variable-sized
   sheets without wasted paper
-- Added functionality to pack to multiple bins until all blocks possible are fitted
+- Added functionality to pack to multiple sheets until all blocks possible are fitted
 - demo available at http://pdizz.com/packager/demo.html
 
-Original source code licence:
+
+
+
+
+Adapted from http://codeincomplete.com/posts/2011/5/7/bin_packing/
+Original licence:
 
 Copyright (c) 2011 Jake Gordon and contributors
 
