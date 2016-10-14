@@ -4,7 +4,7 @@ roll-paper.
 - Adapted growing bin algorithm to only grow up to preset size for packing images to variable-sized
   sheets without wasted paper
 - Added functionality to pack to multiple sheets until all blocks possible are fitted
-- demo available at http://pdizz.com/packager/demo.html
+- demo available at http://embed.plnkr.co/tm3RXY9hlpyd8d8AN2Ez/preview
 
 
 
